@@ -1,0 +1,5 @@
+git clone https://github.com/heroku/python-getting-started.git
+cd python-getting-started
+heroku create
+git push heroku main
+heroku logs --tail
